@@ -2,12 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #eaeaea;
-    height: 100%;
 }
 
 #logo {
-    width: 45px;
-    vertical-align: middle;
+    width: 60px;
 }
 
 #header {
