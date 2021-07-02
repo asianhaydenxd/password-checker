@@ -11,21 +11,40 @@
         <h1><img id="logo" alt="asianhaydenxd logo" src="haydenlogo.svg"> Password Checker</h1>
     </div>
     <div id="container">
-        <p>Password</p>
-        <div id="password-container">
-            <input type="password" id="password">
-            <div id="password-visibility">
-                <input type="checkbox" id="visibility" onchange="toggleVisibility()">
-                <label for="visibility">Show password</label>
-            </div>
-        </div>
-        <div id="tests">
+        <div id="prologue">
+            <h2>The Purpose of Password Requirements</h2>
+            <p>In the eyes of a website, the only thing distinguishing you from a hacker is your password.
+               It's important to make sure that no hacker can guess your password.</p>
+            <p>To prevent hackers from stealing accounts, many websites opt to force users to comply with
+               a specific set of rules for the security of passwords. This reduces the chance of users
+               having their accounts stolen.</p>
+            <p>The requirements these websites typically set include (but are not limited to):</p>
             <ul>
-                <li id="length-test" class="fail"><span class="status">O</span>Must be at least 8 characters long</li>
-                <li id="capital-test" class="fail"><span class="status">O</span>Must contain a capital letter</li>
-                <li id="number-test" class="fail"><span class="status">O</span>Must contain a number</li>
-                <li id="symbol-test" class="fail"><span class="status">O</span>Must contain a symbol</li>
+                <li>Password length</li>
+                <li>Capital letters</li>
+                <li>Numbers</li>
+                <li>Symbols</li>
             </ul>
+            <p>These requirements have been provided below to test whether or not your own passwords are 
+               up to these websites' standards.</p>
+        </div>
+        <div id="password-checker">
+            <h2>Password Checker</h2>
+            <div id="password-container">
+                <input type="password" id="password">
+                <div id="password-visibility">
+                    <input type="checkbox" id="visibility" onchange="toggleVisibility()">
+                    <label for="visibility">Show password</label>
+                </div>
+            </div>
+            <div id="tests">
+                <ul>
+                    <li id="length-test" class="fail"><span class="status">O</span>Must be at least 8 characters long</li>
+                    <li id="capital-test" class="fail"><span class="status">O</span>Must contain a capital letter</li>
+                    <li id="number-test" class="fail"><span class="status">O</span>Must contain a number</li>
+                    <li id="symbol-test" class="fail"><span class="status">O</span>Must contain a symbol</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
