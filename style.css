@@ -30,3 +30,24 @@
     box-sizing: border-box;
     text-align: center;
 }
+
+#tests ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#tests ul li {
+    color: gray;
+    font-size: 16px;
+}
+
+#tests ul li.pass {
+    color: green;
+}
+
+#tests ul li .status {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    vertical-align: middle;
+}
