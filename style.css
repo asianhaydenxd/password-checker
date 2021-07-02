@@ -6,6 +6,8 @@ body {
 
 #logo {
     width: 60px;
+    vertical-align: middle;
+    padding-right: 30px;
 }
 
 #header {
