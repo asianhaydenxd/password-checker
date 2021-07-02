@@ -29,6 +29,12 @@
     font-size: 20px;
     box-sizing: border-box;
     text-align: center;
+    border-radius: 5px;
+}
+
+#password-container #password-visibility {
+    padding-top: 5px;
+    color: white;
 }
 
 #tests ul {
@@ -37,7 +43,7 @@
 }
 
 #tests ul li {
-    color: gray;
+    color: darkgray;
     font-size: 16px;
 }
 

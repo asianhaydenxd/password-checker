@@ -13,12 +13,14 @@
     </div>
     <hr>
     <div id="container">
+        
         <div id="password-container">
             <input type="password" id="password">
+            <div id="password-visibility">
+                <input type="checkbox" id="visibility" onchange="toggleVisibility()">
+                <label for="visibility">Show password</label>
+            </div>
         </div>
-        <br>
-        <input type="checkbox" id="visibility" onchange="toggleVisibility()">
-        <label for="visibility">Show password</label>
         <div id="tests">
             <ul>
                 <li id="length-test" class="fail"><span class="status">O</span>Must be at least 8 characters long</li>
