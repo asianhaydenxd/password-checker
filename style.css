@@ -41,8 +41,9 @@
     font-size: 16px;
 }
 
-#tests ul li.pass {
+#tests ul .pass {
     color: green;
+    font-weight: bold;
 }
 
 #tests ul li .status {
