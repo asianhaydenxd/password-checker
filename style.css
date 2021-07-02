@@ -1,20 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    height: 100%;
+}
+
 #logo {
-    width: 50px;
+    width: 45px;
+    vertical-align: middle;
 }
 
 #header {
+    background-color: #363636;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 #header h1 {
     font-size: 50px;
+    color: white;
 }
 
 #container {
     width: 40%;
     margin: auto;
     padding: 20px;
+    background-color: white;
 }
 
 #password-container {
