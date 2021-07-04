@@ -26,7 +26,7 @@ header h1 {
     color: white;
 }
 
-#container {
+main {
     width: 960px;
     margin: auto;
     padding: 20px;
@@ -34,7 +34,7 @@ header h1 {
 }
 
 @media (max-width: 1080px) {
-    #container {
+    main {
         width: 100%;
         box-sizing: border-box;
     }
