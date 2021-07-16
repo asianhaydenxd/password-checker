@@ -1,13 +1,13 @@
 let password = document.getElementById('password');
 
-let Password = {
-    check: (pass, lengthMin, capitalNeeded, numberNeeded, symbolNeeded) => {
+class Password {
+    static check(pass, lengthMin, capitalNeeded, numberNeeded, symbolNeeded) {
         return {
             lengthMet: pass.length >= lengthMin,
             capitalMet: capitalNeeded && /[A-Z]/.test(pass),
             numberMet: numberNeeded && /[0-9]/.test(pass),
             symbolMet: symbolNeeded && /\W/.test(pass)
-        };
+        }
     }
 };
 
